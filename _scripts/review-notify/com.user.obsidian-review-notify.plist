@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.obsidian-review-notify</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-lc</string>
+        <string>source /Users/leeyoungmin/obsidian-review-notify/.env && /usr/bin/python3 /Users/leeyoungmin/obsidian-review-notify/notify.py</string>
+    </array>
+
+    <!-- 매일 오전 9:00 실행 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/leeyoungmin/obsidian-review-notify/notify.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/leeyoungmin/obsidian-review-notify/notify.err.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

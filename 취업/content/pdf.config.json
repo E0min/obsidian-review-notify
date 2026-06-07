@@ -1,0 +1,82 @@
+{
+  "common": {
+    "aboutFile": "_about.md"
+  },
+  "roles": {
+    "FDE": {
+      "resume": {
+        "dir": "./resume/FDE",
+        "files": ["mindgraph_이력서.md", "chatGraph_이력서.md"]
+      },
+      "portfolio": {
+        "dir": "./portfolio/FDE",
+        "files": ["mindgraph_portfolio.md", "chatGraph_portfolio.md"]
+      }
+    },
+    "Product-Engineer": {
+      "resume": {
+        "dir": "./resume/Product-Engineer",
+        "files": [
+          "mindgraph_이력서.md",
+          "chatGraph_이력서.md",
+          "Fit_이력서.md",
+          "xab_이력서.md"
+        ]
+      },
+      "portfolio": {
+        "dir": "./portfolio/Product-Engineer",
+        "files": [
+          "mindgraph_portfolio.md",
+          "chatGraph_portfolio.md",
+          "Fit_portfolio.md",
+          "xab_portfolio.md"
+        ]
+      }
+    },
+    "AI-Native-Builder": {
+      "resume": {
+        "dir": "./resume/AI-Native-Builder",
+        "files": ["mindgraph_이력서.md", "chatGraph_이력서.md"]
+      },
+      "portfolio": {
+        "dir": "./portfolio/AI-Native-Builder",
+        "files": ["mindgraph_portfolio.md", "chatGraph_portfolio.md"]
+      }
+    },
+    "FE": {
+      "resume": {
+        "dir": "./resume/FE",
+        "files": [
+          "mindgraph_이력서.md",
+          "chatGraph_이력서.md",
+          "Fit_이력서.md",
+          "xab_이력서.md"
+        ]
+      },
+      "portfolio": {
+        "dir": "./portfolio/FE",
+        "files": [
+          "mindgraph_portfolio.md",
+          "chatGraph_portfolio.md",
+          "Fit_portfolio.md",
+          "xab_portfolio.md"
+        ]
+      }
+    }
+  },
+  "output": {
+    "resumeFilename": "이력서.pdf",
+    "portfolioFilename": "포트폴리오.pdf"
+  },
+  "pdf": {
+    "format": "A4",
+    "scale": 0.7,
+    "margin": {
+      "top": "20mm",
+      "right": "15mm",
+      "bottom": "20mm",
+      "left": "15mm"
+    },
+    "printBackground": true
+  }
+}

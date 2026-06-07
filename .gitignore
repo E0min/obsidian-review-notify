@@ -1,0 +1,14 @@
+# 옵시디언 내부 설정 (기기마다 다름)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/cache
+
+# 첨부파일 (용량 큼, 필요하면 제거)
+# _attachments/
+
+# macOS
+.DS_Store
+
+# 임시
+*.tmp
